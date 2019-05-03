@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.8.1" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SingleCoco.DTO\SingleCoco.Dtos.csproj" />
+    <ProjectReference Include="..\SingleCoco.Entities\SingleCoco.Entities.csproj" />
+    <ProjectReference Include="..\SingleCoco.Infrastructure\SingleCoco.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
